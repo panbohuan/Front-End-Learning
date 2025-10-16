@@ -1,0 +1,98 @@
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: hsl(188, 83%, 37%);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  /* text-align:center; 属性，让文本居中对齐 */
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 18px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.related-author {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.related {
+  list-style: none;
+}
+
+header.main-header {
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+/* body {
+  background-color: aquamarine;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* odd 表示奇数 */
+/* even 表示偶数 */
+/* li:nth-child(odd) {
+  color: red;
+} */
