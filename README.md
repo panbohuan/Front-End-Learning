@@ -18,4 +18,14 @@
 
 <ul>
     <li>css样式入门学习，简单框架构建</li>
+    <li>不觉得敲代码真的是一件非常有意思的事情吗</li>
+    <li>伪类学习 伪类基础概念 简单伪类例子 如：first-child :last-child :nth-child()</li>
+    <li>组合选择器 颜色表示方法 RGB和十六进制表示法
+</ul>
+
+##### DAY4 10.18
+
+<ul>
+    <li>学习了关于a标签的伪类:link :active :hover</li>
+    <li>简单的console调试，进行css样式的测试和inspect</li>
 </ul>
