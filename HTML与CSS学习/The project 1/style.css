@@ -115,7 +115,7 @@ a:hover {
 }
 
 /* 点击事件 */
-a:active{
-  background-color: black;\
+a:active {
+  background-color: black;
   font-style: italic;
 }

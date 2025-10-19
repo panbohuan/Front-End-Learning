@@ -1,0 +1,64 @@
+body {
+  border: 5px solid black;
+  line-height: 2;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+header {
+  background-color: #e6e4e4;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p strong {
+  font-size: 26px;
+}
+
+.shipping {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* a标签样式设置 */
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+aside h3 {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: square;
+}
+
+/* 按钮样式设置 */
+footer {
+  position: relative;
+  margin-top: 40px;
+}
+
+button {
+  position: absolute;
+  color: white;
+  background-color: black;
+  font-size: large;
+  text-transform: uppercase;
+  border: none;
+  bottom: 0;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
