@@ -29,3 +29,17 @@
     <li>学习了关于a标签的伪类:link :active :hover</li>
     <li>简单的console调试，进行css样式的测试和inspect</li>
 </ul>
+
+##### DAY5 10.19
+
+<ul>
+    <li>学习了CSS理论 选择器优先级 遗传 BOX MODEL</li>
+</ul>
+
+##### DAY6 10.20
+
+<ul>
+    <li>学习了CSS理论 添加维度(height width)</li>
+    <li>学习如何利用margin:auto实现居中布局</li>
+    <li>完成了challenge3 自己解决了按钮边界问题 利用console 调试</li>
+</ul>

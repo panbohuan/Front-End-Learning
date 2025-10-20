@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* 一般来说设置css文件的第一步就是取消标签的默认内外边距 */
+
 h1,
 h2,
 h3,
@@ -29,11 +35,14 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
   font-family: sans-serif;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -44,10 +53,33 @@ h4 {
 p {
   font-size: 20px;
   line-height: 1.5;
+  padding-bottom: 15px;
+}
+
+ol,
+ul {
+  margin-left: 50px;
+  margin-bottom: 15px;
 }
 
 li {
   font-size: 18px;
+  padding-bottom: 5px;
+}
+
+/* li:last-child {
+  padding-bottom: 0;
+} */
+
+.container {
+  width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
 }
 
 footer p {
@@ -70,13 +102,27 @@ footer p {
 
 header.main-header {
   background-color: #f7f7f7;
-  padding: 10px;
+  padding: 20px;
+}
+
+.main-header {
+  border-top: 10px solid #1098ad;
+}
+
+article {
+  margin-bottom: 60px;
 }
 
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  padding: 50px 30px;
+  width: 500px;
+}
+
+body header {
+  margin-bottom: 30px;
 }
 
 /* body {
