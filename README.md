@@ -43,3 +43,12 @@
     <li>学习如何利用margin:auto实现居中布局</li>
     <li>完成了challenge3 自己解决了按钮边界问题 利用console 调试</li>
 </ul>
+
+##### DAY7 10.21
+
+<ul>
+    <li>学习了不同类型的BOX布局 block inline inline-block</li>
+    <li>学习了绝对位置 理解了位置的定义过程 position absolute relative🤞补充 cursor 属性及其属性值</li>
+    <li>学习了伪元素及其意义 用于添加小修饰样式 默认上所有伪元素都是内联元素 inline</li>
+    <li>学习了开发者技巧 利用Google查找css 与 HTML 相关问题 完成了课程第一节的学习</li>
+</ul>
