@@ -52,3 +52,13 @@
     <li>学习了伪元素及其意义 用于添加小修饰样式 默认上所有伪元素都是内联元素 inline</li>
     <li>学习了开发者技巧 利用Google查找css 与 HTML 相关问题 完成了课程第一节的学习</li>
 </ul>
+
+##### DAY8 10.23
+
+<ul>
+    <li>第二章学习开始 认识了CSS布局 FLOATS(这玩意确实老掉牙了😒) FLEXBOX CSS GRID</li>
+    <li>具体学习如何使用浮点 FLOATS 理解了浮点后的高度坍缩 使用浮点后其他的文本和内联元素会环绕着浮点元素</li>
+    <li>学习如何清除浮点 利用伪元素实现 clear:both;</li>
+    <li>学习了盒模型中的border box 知道了一个常见的全局设置 box-sizing:border-box</li>
+    <li>完成了challenge5 运用浮点布局实现了不同的布局内容(快学FLEX! 我不会再想手算像素点了😐😐)</li>
+</ul>

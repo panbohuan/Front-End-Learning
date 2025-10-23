@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60vw;
+  margin: 50px auto;
+  border: 3px solid black;
+  bottom: 50px;
+  line-height: 2;
+}
+
+header {
+  position: relative;
+}
+
+h2::before {
+  content: "SALE";
+  letter-spacing: 2px;
+  color: white;
+  background-color: red;
+  font-size: 12px;
+  display: inline-block;
+  padding: 3px;
+  font-weight: 700;
+  width: 50px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -20px;
+  top: -10px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+header {
+  background-color: #f3f1f1;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+p strong {
+  font-size: 26px;
+  position: relative;
+}
+
+p strong::after {
+  content: "FREE SHIPPING";
+  position: absolute;
+  font-size: 14px;
+  font-weight: 700;
+  left: 150px;
+  top: 10px;
+  white-space: nowrap;
+}
+
+.shipping {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* a标签样式设置 */
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.color-container {
+  display: flex;
+  gap: 15px;
+}
+
+.color-square {
+  width: 25px;
+  height: 25px;
+  margin-top: 27px;
+}
+
+#square1 {
+  background-color: black;
+}
+
+#square2 {
+  background-color: blue;
+}
+
+#square3 {
+  background-color: red;
+}
+
+#square4 {
+  background-color: orange;
+}
+
+#square5 {
+  background-color: greenyellow;
+}
+
+#square6 {
+  background-color: brown;
+}
+
+aside h3 {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: square;
+  margin-bottom: 55px;
+  margin-left: 20px;
+}
+
+/* 按钮样式设置 */
+footer {
+  position: relative;
+  width: 100%;
+  margin-top: 40px;
+}
+
+button {
+  position: absolute;
+  color: white;
+  background-color: black;
+  font-size: large;
+  text-transform: uppercase;
+  border: none;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border-top: 3px solid black;
+}
+img {
+  float: left;
+  height: 300px;
+  width: auto;
+}
+
+.introduction {
+  float: left;
+  width: 240px;
+  height: auto;
+  margin-left: 70px;
+}
+
+aside {
+  float: left;
+  width: 240px;
+  height: 330px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+header,
+footer,
+button::after {
+  content: "";
+  display: block;
+  clear: both;
+}
