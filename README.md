@@ -62,3 +62,10 @@
     <li>学习了盒模型中的border box 知道了一个常见的全局设置 box-sizing:border-box</li>
     <li>完成了challenge5 运用浮点布局实现了不同的布局内容(快学FLEX! 我不会再想手算像素点了😐😐)</li>
 </ul>
+
+##### DAY9 10.24
+
+<ul>
+    <li>今天很忙，没学什么 入门了FLEX基础 认识了flex的作用，了解了对于flex continer 和 flex items 的一些基本属性与属性值</li>
+    <li>清楚了主轴 main axis 和交叉轴 cross axis 的概念 😒写微积分去了</li>
+</ul>
