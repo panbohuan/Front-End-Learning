@@ -69,3 +69,12 @@
     <li>今天很忙，没学什么 入门了FLEX基础 认识了flex的作用，了解了对于flex continer 和 flex items 的一些基本属性与属性值</li>
     <li>清楚了主轴 main axis 和交叉轴 cross axis 的概念 😒写微积分去了</li>
 </ul>
+
+##### DAY10 10.28
+
+<ul>
+    <li>今天练习了flex的基本使用方法，用flex布局代替float方法重新实现了project1的布局</li>
+    <li>了解了align-items 和 align-self 之间的关系，知道了shrink grow 和basis的重要作用，其中grow可以用来作为填充内容</li>
+    <li>在对弹性元素设置宽度属性时不应该使用width，而应当使用flex-basis，因为flex-basis<strong>自适应主轴方向</strong>，如果使用width，它只在水平方向上有效，当主轴变为垂直时，需要改变height来控制尺寸，并且在选择器中flex-basis比width有着更高的优先级，还有，flex-basis与grow，shrink合作得天衣无缝</li>
+    <li>注意align-items的默认值是stretch，当给弹性元素设置align-self属性时会重写全部的属性，stretch属性值会无效</li>
+</ul>
