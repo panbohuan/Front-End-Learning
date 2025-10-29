@@ -78,3 +78,9 @@
     <li>在对弹性元素设置宽度属性时不应该使用width，而应当使用flex-basis，因为flex-basis<strong>自适应主轴方向</strong>，如果使用width，它只在水平方向上有效，当主轴变为垂直时，需要改变height来控制尺寸，并且在选择器中flex-basis比width有着更高的优先级，还有，flex-basis与grow，shrink合作得天衣无缝</li>
     <li>注意align-items的默认值是stretch，当给弹性元素设置align-self属性时会重写全部的属性，stretch属性值会无效</li>
 </ul>
+
+##### DAY11 10.29
+
+<ul>
+    <li>今天更改了challenge5 用flex 布局重新完成了布局要求，代替了古老的float布局方式👍</li>
+</ul>
