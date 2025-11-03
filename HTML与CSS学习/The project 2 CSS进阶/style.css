@@ -160,9 +160,9 @@ header.main-header {
   border-top: 10px solid #1098ad;
 }
 
-article {
+/* article {
   margin-bottom: 60px;
-}
+} */
 
 aside {
   background-color: #f7f7f7;
@@ -171,9 +171,9 @@ aside {
   padding: 50px 40px;
 }
 
-body header {
+/* body header {
   margin-bottom: 30px;
-}
+} */
 
 /* body {
   background-color: aquamarine;
@@ -313,7 +313,7 @@ li.related-post:last-child {
   margin-bottom: 0;
 }
 
-.row {
+/* .row {
   display: flex;
   gap: 75px;
 }
@@ -327,4 +327,28 @@ aside {
   flex-basis: 300px;
   flex-shrink: 0;
   align-self: flex-start;
+} */
+
+/* CSS GRID LAYOUT */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+}
+
+.main-header {
+  grid-column: 1 / -1;
+}
+
+/* article {
+} */
+
+aside {
+  align-self: start;
+}
+
+footer {
+  grid-column: 1/-1;
+  /* background-color: #1098ad; */
 }

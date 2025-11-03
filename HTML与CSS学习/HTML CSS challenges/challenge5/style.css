@@ -155,6 +155,7 @@ p strong::after {
   white-space: nowrap;
   top: 4px;
   left: 100%;
+  /* 这个属性让伪元素位于元素的左边 */
   margin-left: 70px;
 }
 

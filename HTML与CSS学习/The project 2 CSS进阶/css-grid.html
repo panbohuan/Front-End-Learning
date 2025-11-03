@@ -40,19 +40,60 @@
         margin: 40px;
 
         /* CSS GRID */
+        display: grid;
+        /* grid-template-rows: 300px 200px; */
+        /* gap: 30px; */
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+        grid-template-columns: repeat(4, 1fr);
+        /* 相当于写了四次1fr */
+        grid-template-rows: 1fr 1fr;
+        /* height: 500px; */
+        column-gap: 20px;
+        row-gap: 40px;
+
+        /* TEMP */
+        display: none;
+      }
+
+      .el--8 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+      }
+
+      .el--2 {
+        grid-column: 1 / span 2;
+        /* grid-column: 1/-1; 使得网格项直接到end */
+        grid-row: 2/3;
       }
 
       .container--2 {
+        /* display: none; */
         /* STARTER */
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
-        margin: 100px;
+        margin: 40px;
 
-        width: 1000px;
+        width: 700px;
         height: 600px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+        gap: 50px;
+
+        /* Aligning tracks inside container:distribute empty space*/
+        justify-content: center;
+        /* justify-content: space-between; */
+        align-content: center;
+        /* align-content: space-between; */
+        /* align-content: end; */
+
+        /* Aligning items INSIDE cells: moving items around inside cells */
+        /* 在每个网格单元中去移动和对齐元素 */
+        align-items: center;
+        justify-items: center;
       }
     </style>
   </head>
@@ -64,7 +105,7 @@
       <div class="el el--4">(4) are</div>
       <div class="el el--5">(5) amazing</div>
       <div class="el el--6">(6) languages</div>
-      <div class="el el--7">(7) to</div>
+      <!-- <div class="el el--7">(7) to</div> -->
       <div class="el el--8">(8) learn</div>
     </div>
 

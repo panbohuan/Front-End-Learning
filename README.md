@@ -84,3 +84,11 @@
 <ul>
     <li>今天更改了challenge5 用flex 布局重新完成了布局要求，代替了古老的float布局方式👍</li>
 </ul>
+
+##### DAY12 11.3
+
+<ul>
+    <li>今天是运动会结束后的第一次上课，有点懈怠了，在11.14左右我应该完成HTML和CSS课程的基础学习，后面要冲刺了😐👍</li>
+    <li>今天学习了CSS GRID布局,理解了其作用于相关属性,其中包括grid cell,grid trick等内容</li>
+    <li>认识了fr单元,感觉和FLEXBOX中的flex-grow很相像,作用上很类似</li>
+</ul>
