@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 55vw;
+  margin: 50px auto;
+  border: 3px solid black;
+  bottom: 50px;
+  line-height: 2;
+}
+
+header {
+  position: relative;
+}
+
+h2::before {
+  content: "SALE";
+  letter-spacing: 2px;
+  color: white;
+  background-color: red;
+  font-size: 12px;
+  display: inline-block;
+  padding: 3px;
+  font-weight: 700;
+  width: 50px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -20px;
+  top: -10px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+header {
+  background-color: #f3f1f1;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+p strong {
+  font-size: 26px;
+  position: relative;
+}
+
+p strong::after {
+  content: "FREE SHIPPING";
+  font-size: 12px;
+  font-weight: 300;
+  position: absolute;
+  white-space: nowrap;
+  top: 8px;
+  right: -147px;
+}
+
+.shipping {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* a标签样式设置 */
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.color-container {
+  display: flex;
+  gap: 15px;
+}
+
+.color-square {
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#square1 {
+  background-color: black;
+  margin-left: 10px;
+}
+
+#square2 {
+  background-color: blue;
+}
+
+#square3 {
+  background-color: red;
+}
+
+#square4 {
+  background-color: orange;
+}
+
+#square5 {
+  background-color: greenyellow;
+}
+
+#square6 {
+  background-color: brown;
+}
+
+aside {
+  margin-top: 10px;
+}
+
+aside h3 {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: square;
+  margin-left: 30px;
+  margin-bottom: 55px;
+}
+
+/* 按钮样式设置 */
+footer {
+  position: relative;
+  width: 100%;
+  margin-top: 40px;
+}
+
+button {
+  position: absolute;
+  color: white;
+  background-color: black;
+  font-size: large;
+  text-transform: uppercase;
+  border: none;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border-top: 3px solid black;
+}
+
+/* CSS GRID 布局 */
+.grid {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  grid-template-rows: 250px;
+  gap: 40px;
+}
+
+.picture {
+  grid-column: 1/2;
+}
+
+.information {
+  grid-column: 2/3;
+}
+
+aside {
+  grid-column: 3/4;
+}

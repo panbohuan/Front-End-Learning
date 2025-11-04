@@ -92,3 +92,12 @@
     <li>今天学习了CSS GRID布局,理解了其作用于相关属性,其中包括grid cell,grid trick等内容</li>
     <li>认识了fr单元,感觉和FLEXBOX中的flex-grow很相像,作用上很类似</li>
 </ul>
+
+##### DAY13 11.4
+
+<ul>
+    <li>完成了challenge6，用GRID布局代替了FLEX布局实现了项目的排版</li>
+    <li>WEB DESIGN 引入</li>
+    <li>别睡了哥们，再睡学不完了😒👌</li>
+    <li>重新了解了position属性及其相关的元素，比如right left top bottom，知道了其的运行规律，了解了为啥用right等属性老是出错</li>
+</ul>
