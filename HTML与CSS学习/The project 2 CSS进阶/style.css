@@ -352,3 +352,9 @@ footer {
   grid-column: 1/-1;
   /* background-color: #1098ad; */
 }
+p {
+  font-family: "Stack Sans Notch", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
